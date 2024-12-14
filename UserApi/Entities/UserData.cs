@@ -1,4 +1,6 @@
-﻿namespace UserApi.Entities
+﻿using Swashbuckle.AspNetCore.Annotations;
+
+namespace UserApi.Entities
 {
     public class UserData
     {

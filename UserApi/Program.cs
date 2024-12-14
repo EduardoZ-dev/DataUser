@@ -3,6 +3,7 @@ using UserApi;
 using UserApi.Endpoints;
 using UserApi.Repositories;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,8 +21,7 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Registrar ILogger
-builder.Services.AddLogging();
+builder.Logging.AddConsole();
 
 var app = builder.Build();
 
@@ -37,5 +37,6 @@ app.UseAuthorization();
 
 
 app.MapGroup("/users").MapUsers();
+
 
 app.Run();

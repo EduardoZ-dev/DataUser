@@ -15,11 +15,9 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "UserApi.DTO_s.UserDataDTO",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 201
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
       }
     ]
   }

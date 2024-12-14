@@ -135,3 +135,5 @@ C:\Users\Eduardo Zequeira G\source\repos\UserApi\UserApi\obj\Debug\net8.0\refint
 C:\Users\Eduardo Zequeira G\source\repos\UserApi\UserApi\obj\Debug\net8.0\UserApi.pdb
 C:\Users\Eduardo Zequeira G\source\repos\UserApi\UserApi\obj\Debug\net8.0\UserApi.genruntimeconfig.cache
 C:\Users\Eduardo Zequeira G\source\repos\UserApi\UserApi\obj\Debug\net8.0\ref\UserApi.dll
+C:\Users\Eduardo Zequeira G\source\repos\UserApi\UserApi\obj\Debug\net8.0\UserApi.sourcelink.json
+C:\Users\Eduardo Zequeira G\source\repos\UserApi\UserApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
