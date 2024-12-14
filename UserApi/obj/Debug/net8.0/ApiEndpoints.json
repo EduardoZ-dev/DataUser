@@ -1,0 +1,26 @@
+[
+  {
+    "ContainingType": "UserApi.Endpoints.UserEndpoints",
+    "Method": "CreateUser",
+    "RelativePath": "users/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createUserDTO",
+        "Type": "UserApi.DTO_s.UserDataDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UserApi.DTO_s.UserDataDTO",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 201
+      }
+    ]
+  }
+]
